@@ -1,0 +1,45 @@
+{
+  "name": "download_videos",
+  "version": "1.0.0",
+  "description": "Videos downloading Platform",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -r dotenv/config --experimental-json-modules src/app.js",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/app.js"
+  },
+  "keywords": [
+    "Videos",
+    "download",
+    "facebook",
+    "instagram",
+    "youtube"
+  ],
+  "author": "Saira Aslam",
+  "license": "ISC",
+  "dependencies": {
+    "@sasmeee/igdl": "^1.0.0",
+    "@tobyg74/tiktok-api-dl": "^1.1.9",
+    "axios": "^1.7.3",
+    "body-parser": "^1.20.2",
+    "child_process": "^1.0.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fb-downloader-scrapper": "^2.0.0",
+    "instagram-scraping": "^1.0.13",
+    "instagram-url-direct": "^1.0.16",
+    "jsdom": "^24.1.1",
+    "mongoose": "^8.5.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.4",
+    "pinterest-dl": "^1.0.1",
+    "pinterest-node-api": "^0.0.9",
+    "puppeteer": "^22.15.0",
+    "tiktokapi-src": "^1.0.0",
+    "ytdl-core": "^4.11.5"
+  }
+}
+
+
